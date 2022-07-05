@@ -1,0 +1,39 @@
+{
+  "private": true,
+  "scripts": {
+    "dev": "npm run development",
+    "development": "mix",
+    "watch": "mix watch",
+    "watch-poll": "mix watch -- --watch-options-poll=1000",
+    "hot": "mix watch --hot",
+    "prod": "npm run production",
+    "production": "mix --production"
+  },
+  "devDependencies": {
+    "@tailwindcss/forms": "^0.4.0",
+    "@tailwindcss/typography": "^0.5.0",
+    "alpinejs": "^3.0.6",
+    "autoprefixer": "^10.4.5",
+    "axios": "^0.25",
+    "laravel-mix": "^6.0.6",
+    "lodash": "^4.17.19",
+    "postcss": "^8.4.12",
+    "postcss-import": "^14.0.1",
+    "tailwindcss": "^3.0.0",
+    "tailwindcss-font-inter": "^3.0.1"
+  },
+  "name": "security-framework",
+  "description": "- **Using HTTPS/TLS (SSL Certificate)**     Currently, our website does not have an SSL certificate, but it will be given an SSL certificate by the company that becomes our client later because we use hosting from their company. You'll find it next to the URL in your browser.     🗣️(https://drive.google.com/file/d/1E3cTTdW9pYvfpLZKvhbDwQGxHtT1vHzg/view?usp=sharing) - **HTTPOnly**     This cookie prevents attacks in the form of XSS (Cross-Site Scripting). You can find this feature in the application browser section of our website.     ![image](https://user-images.githubusercontent.com/89993118/175805373-0210adaa-d46f-4729-aaa0-89d91fe90200.png) - **Session Management**     When a user logs in on multiple devices, the user will potentially be hacked from their session account. To prevent that, we create a browser session. The goal is that users can log out from other currently active browsers so that browsers on devices that are not in use can be cleaned or logged out again. User can find it in their profile page.     ![image](https://user-images.githubusercontent.com/89993118/175805352-48541409-9ad2-4339-bd78-5c7b5acfcda5.png) ## Prevents IDOR",
+  "version": "1.0.0",
+  "main": "tailwind.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daanvhekken/Security-Framework.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/daanvhekken/Security-Framework/issues"
+  },
+  "homepage": "https://github.com/daanvhekken/Security-Framework#readme"
+}
