@@ -43,7 +43,7 @@
                     </div>
 
                     <div class="flex items-center justify-center w-full py-3">
-                        <button type="submit" class="w-full flex justify-center items-center px-4 py-2 bg-tertiary-color rounded-md font-semibold text-lg text-white hover:bg-tertiary-hover focus:outline-none focus:border-gray-900 focus:ring focus:ring-gray-300 disabled:opacity-25 transition">
+                        <button type="submit" class="w-full flex justify-center items-center px-4 py-2 border border-tertiary-color rounded-md font-semibold text-lg text-tertiary-color hover:bg-blue-50 active:bg-gray-900 focus:outline-none focus:border-gray-900 focus:ring focus:ring-gray-300 disabled:opacity-25 transition my-4">
                             Reset Password
                         </button>
                     </div>

@@ -1,6 +1,6 @@
 <x-guest-layout>
-    <div class="flex flex-col lg:flex-row">
-        <div class="relative lg:w-1/2 lg:top-0 lg:right-0">
+    <div class="flex flex-col">
+        <div class="relative">
             <div class="min-h-screen w-full flex flex-col items-center justify-center bg-white p-6">
                 @if ($errors->any())
                     @foreach ($errors->all() as $error)
@@ -28,7 +28,7 @@
                     </div>
 
                     <div class="flex items-center justify-center w-full py-10">
-                        <button type="submit" class="w-full flex justify-center items-center px-4 py-2 bg-tertiary-color rounded-md font-semibold text-md text-white hover:bg-tertiary-hover focus:outline-none focus:border-gray-900 focus:ring focus:ring-gray-300 disabled:opacity-25 transition">
+                        <button type="submit" class="w-full flex justify-center items-center px-4 py-2 border border-tertiary-color rounded-md font-semibold text-lg text-tertiary-color hover:bg-blue-50 active:bg-gray-900 focus:outline-none focus:border-gray-900 focus:ring focus:ring-gray-300 disabled:opacity-25 transition my-4">
                             Email Password Reset Link
                         </button>
                     </div>

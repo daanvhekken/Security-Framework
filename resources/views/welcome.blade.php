@@ -1,6 +1,6 @@
-<x-guest-layout>
-    <div class="flex flex-col lg:flex-row">
-        <div class="relative lg:w-1/2 lg:top-0 lg:right-0">
+`<x-guest-layout>
+    <div class="flex flex-col">
+        <div class="relative">
             <div class="min-h-screen w-full flex flex-col items-center justify-center bg-white p-6">
                 <div class="w-2/3 lg:w-1/2 my-16">
                     @if (Route::has('login'))
@@ -22,3 +22,4 @@
         </div>
     </div>
 </x-guest-layout>
+`

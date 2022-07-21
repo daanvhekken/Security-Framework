@@ -1,17 +1,6 @@
 <x-guest-layout>
-        <div class="flex flex-col lg:flex-row">
-            <div class="max-h-screen lg:w-1/2">
-                <div class="lg:absolute top-0 left-0 lg:w-1/2" style="background-image: url('/img/svg/landing-page-banner.svg');">
-                    <div class="flex flex-col items-center justify-center min-h-screen text-white">
-                        <div class="animate-bounce lg:hidden">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                                <path stroke-linecap="round" stroke-linejoin="round" d="M15 13l-3 3m0 0l-3-3m3 3V8m0 13a9 9 0 110-18 9 9 0 010 18z" />
-                            </svg>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="relative lg:w-1/2 lg:top-0 lg:right-0 z-10">
+        <div class="flex flex-col">
+            <div class="relative">
                 <div class="min-h-screen w-full flex flex-col items-center justify-center bg-white p-6">
                     @if ($errors->any())
                         @foreach ($errors->all() as $error)
